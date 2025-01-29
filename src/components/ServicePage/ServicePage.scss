@@ -1,0 +1,15 @@
+.service-page {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	& h1 {
+		font-size: 20vw;
+		color: var(--primary-color);
+	}
+
+	& a {
+		padding: 10px;
+		border: 1px solid var(--primary-color);
+		border-radius: 20px;
+	}
+}
